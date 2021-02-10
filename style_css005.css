@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* ユニバーサルセレクタでデフォルトの余白をリセット */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #e2c100;
+	margin: 10px auto;	/* 上下マージン10px 左右autoに設定（中央配置）*/
+	border: 1px solid #000000;	/* 上下左右全てのボーダーを1pxの実線で引く */
+	padding: 5px;	/* 上下左右全てのパディングを5pxに設定 */
+	width: 700px;	/* ボックスの横幅を700pxに設定 */
+	height: 100px;	/* ボックスの高さを100pxに設定 */
+}
+
+main {
+	background-color: #a6ae24;
+	margin: 0 auto;	/* 上下のマージンを0、左右autoに設定（中央配置） */
+	border-bottom: 1px solid #000000; /* 下のボーダーを1pxの実線を引く */
+	padding: 20px 0 20px 0;	/* 上下のパディングを20px 左右のパディングを0に設定 */
+	width: 500px;	/* ボックスの横幅を500pxに設定 */
+	height: 150px;	/* ボックスの高さを150pxに設定 */
+}
+
+footer {
+	background-color: #75c1e3;
+	margin: 30px auto;	/* 上下マージン30px 左右autoに設定（中央配置）*/
+	border: 3px dotted #000000;	/* 上下左右全てのボーダーを3pxの点線で引く */
+	padding: 20px;	/* 上下左右全てのパディングを20pxに設定 */
+	width: 650px;	/* ボックスの横幅を650pxに設定 */
+	height: 50px;	/* ボックスの高さを50pxに設定 */
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+header {
+	background-color: #e2c100;
+}
+
+main {
+	background-color: #a6ae24;
+}
+
+footer {
+	background-color: #75c1e3;
+}
+
+#box1 {
+	background-color: #ffff00;
+}
+
+.box2 {
+	background-color: #a9f5f2;
+}
